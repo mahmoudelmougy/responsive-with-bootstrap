@@ -1,0 +1,108 @@
+:root{
+    --maincolor: #efc333;
+    --blueLight:#f1ffff;
+}
+.contacts{
+    padding: 5px;
+}
+.contacts img{
+    width: 17px;
+    height: 17px;
+    margin: 0px 5px 5px 15px;
+}
+.contacts a{
+    text-decoration: none;
+}
+.carousel img{
+    filter: brightness(0.4);
+}
+.carousel-caption{
+    bottom: 7vw;
+    margin-top: 5px;
+}
+.rotate{
+    transition-duration: 0.5s;
+}
+.rotate:hover{
+    transform:scale(1.05) rotate(3deg);
+    cursor: pointer;
+}
+.sec2{
+    background-color: var(--blueLight);
+}
+.sec2 img{
+    width: 60px;
+    height: 60px;
+}
+.box-shadow{
+    transition-duration: 0.5s;
+}
+.box-shadow:hover{
+    box-shadow: #2c3436 1px 6px 8px -4px ;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: #efc333 solid 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 90px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.sec4 input{
+    line-height: 2;
+}
+
+.footer{
+    color: white;
+    background-image: url(../img/6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+.footer2{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+}
+.footer>.footer2>.footer-cont{
+    padding: 40px;
+}
+.footer .social .social-icons{
+    width: 30px;
+    height: 30px;
+    background-color: #efc333;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer .social img{
+    width: 20px;
+    height: 20px;
+    line-height: 30px;   
+}
+.footer .links{
+
+}
+.footer .links li{
+    margin: 5px;
+}
+.footer .posts{
+    font-size: small;
+}
+.footer .posts i{
+    font-size: xx-large;
+    margin: 5px;
+}
+.footer .posts span{
+    line-height: 20px;
+}
+.footer .contact{
+    font-size: smaller;
+}
+.footer .contact img{
+    width: 17px;
+    height: 17px;
+    margin: 0px 5px 5px 15px;
+}
